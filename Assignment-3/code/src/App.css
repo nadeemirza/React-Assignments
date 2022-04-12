@@ -1,0 +1,115 @@
+body,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+#root.site-container {
+  height: 100vh;
+  width: 100vw;
+}
+.customer-info,
+.product-list,
+.order-info {
+  width: 88vw;
+  border: 2px solid #bbb;
+  margin-top: 2.5vh;
+  margin-right: 6vw;
+  margin-left: 6vw;
+}
+.header {
+  height: 10vh;
+  width: 90vw;
+  background: rgb(248, 241, 241);
+  border: 2px solid #bbb;
+  text-align: center;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.arrow {
+  float: left;
+  font-size: 30px;
+  margin: 5px 0px 20px 30px;
+  font-weight: 500;
+}
+.arrow,
+.id,
+.arrow1,
+.work {
+  color: #bbb;
+}
+.btn {
+  background: black;
+  color: white;
+  cursor: pointer;
+  float: right;
+  padding: 5px 10px;
+  border: none;
+  margin-top: -30px;
+  margin-right: 20px;
+}
+span {
+  font-weight: 400;
+}
+.customer-info > * {
+  text-align: left;
+  margin: 5px 0px 15px 15px;
+}
+.order-info {
+  height: 15vh;
+  display: flex;
+  background: rgb(241, 236, 236);
+}
+.status,
+.door,
+.time {
+  width: 29vw;
+  text-align: left;
+  margin-top: 20px;
+}
+.status {
+  margin-left: 10px;
+}
+.info {
+  font-weight: 400;
+  font-size: 17px;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0px;
+}
+.checkBox {
+  width: 15px;
+  height: 15px;
+  border: 2px solid yellow;
+  display: inline-block;
+  margin: 50px 20px;
+}
+.product-list {
+  display: flex;
+}
+.work {
+  display: block;
+}
+.arrow1 {
+  text-align: right;
+  font-size: 30px;
+  margin-top: 35px;
+  font-weight: 500;
+  width: 20vw;
+}
+.role {
+  text-align: left;
+  width: 50vw;
+  margin-top: 15px;
+  margin-left: 15px;
+}
